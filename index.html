@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827">
+<meta name="description" content="Plataforma de Formação Litúrgica — Pastoral Servidores do Altar">
+<title>Servidores do Altar | Formação Litúrgica</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+  <a class="brand" href="#inicio"><span>✝️</span><div><strong>Servidores do Altar</strong><small>Formação Litúrgica</small></div></a>
+  <div class="top-actions">
+    <button class="icon-btn" id="themeBtn" title="Alternar tema">🌙</button>
+    <button class="icon-btn" id="favBtn" title="Favoritos">⭐</button>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <div class="side-title">FORMAÇÃO</div>
+  <nav id="sideNav"></nav>
+  <div class="side-bottom">
+    <button class="nav-item" data-route="quiz">📝 <span>Quiz</span></button>
+    <button class="nav-item" data-route="calendario">🗓️ <span>Ano Litúrgico</span></button>
+    <button class="nav-item" data-route="materiais">🗂️ <span>Materiais</span></button>
+  </div>
+</aside>
+
+<main id="app"></main>
+</div>
+
+<footer>
+  <strong>Pastoral Servidores do Altar</strong>
+  <span>Formação Litúrgica • Estudo • Serviço • Reverência</span>
+  <small>Conteúdo baseado no Manual de Formação Litúrgica fornecido pela comunidade.</small>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
